@@ -64,7 +64,6 @@ build/
 *.class
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
@@ -140,10 +139,6 @@ Icon
 .Spotlight-V100
 .Trashes
 
-## hack for graddle wrapper
-!wrapper/*.jar
-!**/wrapper/*.jar
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -156,12 +151,6 @@ build/
 
 ### VS Code ###
 .vscode/
-
-
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
